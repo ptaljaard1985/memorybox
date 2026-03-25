@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "memorybox-init",
-    "slug": "memorybox-init",
+    "name": "MemoryBox",
+    "slug": "memorybox",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "memoryboxinit",
+    "scheme": "memorybox",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash-icon.png",
@@ -30,7 +30,10 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-secure-store",
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
     ],
     "experiments": {
       "typedRoutes": true
